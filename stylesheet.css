@@ -6,38 +6,47 @@ a{
 }
 .container{
 	width: auto;
-	padding: 0px 15px;
+	padding: 5px 15px;
 	margin: 0 auto;
 }
 header{
-	height: auto;
+	height: 150px;
 	width: 100%;
-	background-color: rgba(9, 190, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.7);
 	position:fixed;
   top:0;
-  z-index:10;
+  position:fixed;
 }
 .header-center{
 	text-align: center;
+  color: white;
 }
 .topics{
 	padding: 0px 30px;
+  text-align: center;
 }
 .set{
 	float: left;
 	width: 20%;
 }
 .btn{
-	width: 100px;
+	width: 120px;
 	display:inline-block;
 	background-color: rgb(189, 255, 0);
 	opacity: 0.7;
 	padding: 5px 5px;
 	border-radius: 5px;
 }
-.topics{
-	text-align: center;
-}
 .btn:hover{
 	opacity: 1;
+}
+.top-wrapper{
+  padding: 200px 0 150px 0;
+  text-align: center;
+  color: white;
+  background-image: url(img/code.png);
+  background-size: cover;
+}
+.top-wrapper h1{
+  font-size: 100px;
 }

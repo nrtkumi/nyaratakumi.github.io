@@ -37,6 +37,9 @@ header{
 	padding: 5px 5px;
 	border-radius: 5px;
 }
+.btn p{
+  opacity: 1;
+}
 .btn:hover{
 	opacity: 1;
 }
@@ -49,4 +52,10 @@ header{
 }
 .top-wrapper h1{
   font-size: 100px;
+}
+.sentence{
+  text-align: center;
+}
+.sentence li{
+  list-style-type: none;
 }

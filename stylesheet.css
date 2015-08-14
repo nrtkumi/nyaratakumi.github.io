@@ -10,6 +10,7 @@ a{
 	margin: 0 auto;
 }
 header{
+  display: none;
 	height: 150px;
 	width: 100%;
 	background-color: rgba(0, 0, 0, 0.7);
@@ -52,6 +53,9 @@ header{
 }
 .top-wrapper h1{
   font-size: 100px;
+}
+#welcome{
+  display: none;
 }
 .sentence{
   text-align: center;

@@ -33,13 +33,25 @@ header{
 .btn{
 	width: 120px;
 	display:inline-block;
-	background-color: rgb(189, 255, 0);
+  color: white;
 	opacity: 0.7;
 	padding: 5px 5px;
 	border-radius: 5px;
 }
-.btn p{
-  opacity: 1;
+.btn.about{
+  background-color: red;
+}
+.btn.history{
+  background-color: rgb(5, 255, 0);
+}
+.btn.skills{
+  background-color: green;
+}
+.btn.made{
+  background-color: blue;
+}
+.btn.contact{
+  background-color: rgb(250, 0, 255);
 }
 .btn:hover{
 	opacity: 1;
@@ -69,7 +81,11 @@ header{
 }
 .explain{
   display: none;
+  padding-top: 200px;
 }
 .explain.active{
   display: block;
+}
+.english{
+  font-style: oblique;
 }

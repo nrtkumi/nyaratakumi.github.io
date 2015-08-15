@@ -45,6 +45,7 @@ header{
 	opacity: 1;
 }
 .top-wrapper{
+  height: 1000px;
   padding: 200px 0 150px 0;
   text-align: center;
   color: white;
@@ -57,9 +58,18 @@ header{
 #welcome{
   display: none;
 }
+#please{
+  display: none;
+}
 .sentence{
   text-align: center;
 }
 .sentence li{
   list-style-type: none;
+}
+.explain{
+  display: none;
+}
+.explain.active{
+  display: block;
 }

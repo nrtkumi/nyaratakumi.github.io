@@ -1,12 +1,9 @@
 $(function() {
-  $('#welcome').slideDown(1500);
-  $('#head').slideDown(2000);
 
-  $('.set').click(function(){
-  var index = $(this).index();
-  $('.set').removeClass('active');
-  $(this).addClass('active');
-  $('.explain').removeClass('active');
-  $('.explain').eq(index).addClass('active');
-  });
+$('#particles').particleground({
+    dotColor: '#bcbcbc', //ドットの色
+    lineColor: '#bcbcbc', //線の色
+    particleRadius: 5 //ドットの大きさ
+});
+
 });

@@ -18,7 +18,7 @@ body{
 .message{
   height: 700px;
   color: #ffffff;
-  font-size: 48px;
+  font-size: 5em;
   text-align: center;
   background-color: #000000;
 }
@@ -26,7 +26,7 @@ body{
 .set{
   position: absolute;
   top: 200px;
-  right: 300px;
+  left: 100px;
 }
 
 ul{
@@ -49,4 +49,8 @@ li{
 
 li:hover{
   background-color: rgb(27, 80, 237);
+}
+
+.typed-cursor{
+  display: none;
 }

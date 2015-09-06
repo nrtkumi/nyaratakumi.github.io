@@ -1,6 +1,7 @@
 body{
   margin: 0;
   padding: 0;
+  background-color: rgb(38, 35, 40);
 }
 
 .fixed {
@@ -16,11 +17,14 @@ body{
 }
 
 .message{
-  height: 700px;
+  height: 800px;
   color: #ffffff;
   font-size: 5em;
   text-align: center;
   background-color: #000000;
+  font-family: 'OmnibusRegular';
+  font-weight: normal;
+  font-style: normal;
 }
 
 .set{
@@ -29,28 +33,54 @@ body{
   left: 100px;
 }
 
-ul{
+li{
+  list-style: none;
+}
+
+.select{
   padding-left: 0;
   margin: 0px;
   font-size: 2em;
 }
 
-li{
+.menu{
   border-bottom: 1px solid rgb(179, 179, 179);
   padding: 10px 0;
   color: white;
   background-color: rgb(27, 14, 110);
-  list-style: none;
   float: left;
   width: 20%;
   text-align: center;
+  font-family: 'OmnibusRegular';
+  font-weight: normal;
+  font-style: normal;
   cursor: pointer;
 }
 
-li:hover{
+.menu:hover{
   background-color: rgb(27, 80, 237);
+}
+
+.contents{
+  color: white;
+  text-align: center;
 }
 
 .typed-cursor{
   display: none;
+}
+
+.contents h1{
+  font-size: 5em;
+  font-family: 'OmnibusRegular';
+  font-weight: normal;
+  font-style: normal;
+}
+
+.margin{
+  margin-top: 300px
+}
+
+.english{
+  font-style: oblique;
 }

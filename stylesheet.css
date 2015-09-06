@@ -9,11 +9,14 @@ body{
     top: 0;
     width: 100%;
     z-index: 10000;
-    background-color: rgba(27, 14, 110, 0.7);
 }
 
 .wrapper{
   width: 100%;
+}
+
+.tweet{
+  margin-top: 70px;
 }
 
 .message{
@@ -55,7 +58,6 @@ a{
 .menu{
   border-bottom: 1px solid rgb(179, 179, 179);
   padding: 10px 0;
-  color: white;
   background-color: rgb(27, 14, 110);
   float: left;
   width: 20%;
@@ -96,6 +98,7 @@ a{
 .t-color{
   color: #00aced;
   margin-right: 70px;
+  margin-bottom: 100px;
 }
 .f-color{
   color: #3b5998;
@@ -108,5 +111,33 @@ a{
 }
 
 .gh-color{
-  color: rgb(255, 255, 255);
+  color: #ffffff;
+}
+
+.c-color{
+  color: #4CAF50;
+}
+
+.s-color{
+  color: #FFEB3B;
+}
+
+.l-color{
+  color: #FF9800;
+}
+
+.co-color{
+  color: #E91E63;
+}
+
+.se-color{
+  color: #2196F3;
+}
+
+footer{
+  color: #ffffff;
+  text-align: center;
+  font-family: 'OmnibusRegular';
+  font-weight: normal;
+  font-style: normal;
 }

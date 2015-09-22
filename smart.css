@@ -142,4 +142,8 @@ footer{
   font-weight: normal;
   font-style: normal;
 }
+
+p{
+  font-size: 5em;
+}
 }

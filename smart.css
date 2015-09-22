@@ -1,4 +1,4 @@
-@media screen and (min-width: 769px){
+@media screen and (max-width: 768px){
 body{
   margin: 0;
   padding: 0;
@@ -46,7 +46,7 @@ a{
 }
 
 .bar{
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
 }
 

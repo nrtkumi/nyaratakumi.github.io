@@ -143,7 +143,28 @@
     font-weight: normal;
     font-style: normal;
   }
+
   p{
     margin: 0 10px;
+  }
+
+  .color-one{
+    color: #d34836;
+  }
+
+  .color-two{
+    color: #4CAF50;
+  }
+
+  .color-three{
+    color: #00aced;
+  }
+
+  .color-four{
+    color: #FF9800;
+  }
+
+  .color-five{
+    color: #E91E63;
   }
 }

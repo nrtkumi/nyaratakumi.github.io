@@ -3,18 +3,22 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1" />
-  <link rel="stylesheet" media="all" type="text/css" href="stylesheet.css" />
-  <link rel="stylesheet" media="all" type="text/css" href="smart.css" />
+  <link rel="stylesheet" media="all" type="text/css" href="css/stylesheet.css" />
+  <link rel="stylesheet" media="all" type="text/css" href="css/smart.css" />
   <meta name ="author" content="Takumi Nara">
   <meta name="description" content="奈良拓海のホームページ。最新情報をお伝えします!">
   <meta name="keywords" content="Takumi Nara,@nyaratakumi,奈良拓海,エンジニア,プログラマ,プログラミング,高校生">
   <title>Takumi's page</title>
+
+  <link rel="stylesheet" type="text/css" href="css/menu_bubble.css" />
+  <script src="js/snap.svg-min.js"></script>
+
   <link rel="stylesheet" type="text/css" href="font-awesome-4.4.0/css/font-awesome.css">
   <link rel="stylesheet" type="text/css" href="font-awesome-4.4.0/css/font-awesome.min.css">
   <link rel="stylesheet" media="screen" href="http://openfontlibrary.org/face/omnibus-sans-serif" type="text/css">
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
-  <script type='text/javascript' src='jquery.particleground.min.js'></script>
-  <script src="typed.js"></script>
+  <script type='text/javascript' src='js/jquery.particleground.min.js'></script>
+  <script src="js/typed.js"></script>
   <script type="text/javascript">
   $(function() {
 
@@ -40,13 +44,33 @@
 </script>
 </head>
 <body>
+  <div class="menu-wrap">
+    <nav class="menu">
+      <div class="icon-list">
+        <a href="#about"><i class="fa fa-fw fa-commenting"></i><span>About</span></a>
+        <a href="#history"><i class="fa fa-fw fa-star"></i><span>History</span></a>
+        <a href="#skill"><i class="fa fa-fw fa-line-chart"></i><span>Skill</span></a>
+        <a href="#made"><i class="fa fa-fw fa-code"></i><span>Made</span></a>
+        <a href="#contact"><i class="fa fa-fw fa-paper-plane"></i><span>Contact</span></a>
+      </div>
+    </nav>
+    <button class="close-button" id="close-button">Close Menu</button>
+    <div class="morph-shape" id="morph-shape" data-morph-open="M-7.312,0H15c0,0,66,113.339,66,399.5C81,664.006,15,800,15,800H-7.312V0z;M-7.312,0H100c0,0,0,113.839,0,400c0,264.506,0,400,0,400H-7.312V0z">
+      <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 100 800" preserveAspectRatio="none">
+        <path d="M-7.312,0H0c0,0,0,113.839,0,400c0,264.506,0,400,0,400h-7.312V0z"/>
+      </svg>
+    </div>
+  </div>
+  <button class="menu-button" id="open-button">Open Menu</button>	<div class="content-wrap">
+    <div class="content">
     <div class="wrapper">
       <div class="top">
+        <div class="container">
         <div class="message" id="particles">
           <div class="set"></div>
         </div>
       </div>
-      <header id="fixedBox" class="nav">
+      <!-- <header id="fixedBox" class="nav">
         <ul class="select">
           <a class="bar" href="#about"><li class="menu">About</li></a>
           <a class="bar" href="#history"><li class="menu">History</li></a>
@@ -54,7 +78,7 @@
           <a class="bar" href="#made"><li class="menu">Made</li></a>
           <a class="bar" href="#contact"><li class="menu">Contact</li></a>
         </ul>
-      </header>
+      </header> -->
       <div class="contents">
         <div id="about" class="margin">
           <i class="fa fa-commenting fa-5x c-color"></i>
@@ -79,7 +103,7 @@
         </div>
         <div id="history" class="margin">
           <i class="fa fa-star fa-5x s-color"></i>
-          <h1>History</h1>
+          <h1><span class="color-one">H</span><span class="color-two">i</span><span class="color-three">s</span><span class="color-four">t</span><span class="color-five">o</span><span class="color-one">r</span><span class="color-two">y</span></h1>
           <p>1998年4月28日 生まれる!!!</p>
           <p><h2>2005~2011年 小学生時代</h2>
             <p>色々とやらかしてた
@@ -114,7 +138,7 @@
         </div>
         <div id="skill" class="margin">
           <i class="fa fa-line-chart fa-5x l-color"></i>
-          <h1>Skill</h1>
+          <h1><span class="color-one">S</span><span class="color-two">k</span><span class="color-three">i</span><span class="color-four">l</span><span class="color-five">l</span></h1>
           <p>Webプログラミングの世界に迷い込む</p>
             <ul>
               <li>HTML CSS</li>
@@ -127,19 +151,19 @@
         </div>
         <div id="made" class="margin">
           <i class="fa fa-code fa-5x co-color"></i>
-          <h1>Made</h1>
+          <h1><span class="color-one">M</span><span class="color-two">a</span><span class="color-three">d</span><span class="color-four">e</span></h1>
           <p>随時更新予定!!</p>
           <p><a href="https://fathomless-plains-6355.herokuapp.com">初webアプリ</a></p>
         </div>
         <div id="contact" class="margin">
           <i class="fa fa-paper-plane fa-5x se-color"></i>
-          <h1>Contact</h1>
+          <h1><span class="color-one">C</span><span class="color-two">o</span><span class="color-three">n</span><span class="color-four">t</span><span class="color-five">a</span><span class="color-one">c</span><span class="color-two">t</span></h1>
           <a href="https://twitter.com/nyaratakumi"><i class="fa fa-twitter fa-5x t-color"></i></a>
           <a href="https://www.facebook.com/profile.php?id=100009876944042"><i class="fa fa-facebook-official fa-5x f-color"></i></a>
           <a href="https://plus.google.com/u/0/102964717128980706199/posts"><i class="fa fa-google-plus fa-5x g-color"></i></a>
           <a href="https://github.com/nyaratakumi"><i class="fa fa-github fa-5x gh-color"></i></a>
         </div>
-        <h1 class="news">Top News</h1>
+        <h1 class="news"><span class="color-one">T</span><span class="color-two">o</span><span class="color-three">p </span><span class="color-four">N</span><span class="color-five">e</span><span class="color-one">w</span><span class="color-two">s</span></h1>
         <div class="tweet">
           <a class="twitter-timeline" href="https://twitter.com/nyaratakumi" data-widget-id="640418131354087427">@nyaratakumiさんのツイート</a>
           <script>
@@ -163,6 +187,10 @@
         <p>Copyright 2015 Takumi Nara</p>
       </footer>
     </div>
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
+  </div><!-- /content-wrap -->
+</div><!-- /container -->
+<script src="js/classie.js"></script>
+<script src="js/main4.js"></script>
 </body>
 </html>

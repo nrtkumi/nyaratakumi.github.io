@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px){
+@media screen and (min-width: 769px){
   body{
     margin: 0;
     padding: 0;
@@ -18,15 +18,14 @@
 
   .tweet{
     margin-top: 70px;
-    margin: 50px;
   }
 
   .message{
-    height: 700px;
+    height: 800px;
     color: #ffffff;
-    font-size: 2em;
+    font-size: 5em;
     text-align: center;
-    background-color: #000000;
+    background: linear-gradient(#05FBFF, rgb(38, 35, 40));
     font-family: 'OmnibusRegular';
     font-weight: normal;
     font-style: normal;
@@ -35,7 +34,7 @@
   .set{
     position: absolute;
     top: 200px;
-    left: 0px;
+    left: 100px;
   }
 
   li{
@@ -47,7 +46,7 @@
   }
 
   .bar{
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
   }
 
@@ -55,23 +54,6 @@
     padding-left: 0;
     margin: 0px;
     font-size: 2em;
-  }
-
-  .menu{
-    border-bottom: 1px solid rgb(179, 179, 179);
-    padding: 10px 0;
-    background-color: rgb(27, 14, 110);
-    float: left;
-    width: 20%;
-    text-align: center;
-    font-family: 'OmnibusRegular';
-    font-weight: normal;
-    font-style: normal;
-    cursor: pointer;
-  }
-
-  .menu:hover{
-    background-color: rgb(27, 80, 237);
   }
 
   .contents{
@@ -142,10 +124,6 @@
     font-family: 'OmnibusRegular';
     font-weight: normal;
     font-style: normal;
-  }
-
-  p{
-    margin: 0 10px;
   }
 
   .color-one{

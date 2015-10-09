@@ -8,7 +8,7 @@ $(function() {
     density: 7000,
     parallax: false
   });
-
+/*
   $('a[href^=#about]').click(function() {
       var speed = 400;
       var href= $(this).attr("href");
@@ -52,5 +52,5 @@ $(function() {
          var position = target.offset().top;
          $('body,html').animate({scrollTop:position}, speed, 'swing');
          return false;
-      });
+      });*/
 });

@@ -1,169 +1,40 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <title>nyara terminal</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/animate.css">
-  <link href="css/font-awesome.min.css" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script type="text/javascript" src="js/jquery.inview.min.js"></script>
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  <head>
+    <meta charset="utf-8">
+    <title>nyara terminal</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+  </head>
+  <body>
+    <header>
+      <h1 id="title"> </h1>
+    </header>
 
-  ga('create', 'UA-71936883-1', 'auto');
-  ga('send', 'pageview');
-
- </script>
-</head>
-<body>
-  <div class="loader"></div>
-  <div class="content">
-    <!-- header -->
-    <div class="parent">
-      <video src="img/timemovie.mp4" autoplay loop></video>
-        <div id="title" class="animated">nyara terminal</div>
-    </div>
-    <!-- contents -->
-    <div class="color-set">
-      <div id="shell" class="animated">
-        <nav>
-          <ul>
-            <li class="red"></li>
-            <li class="yellow"></li>
-            <li class="green"></li>
-          </ul>
-        </nav>
-        <div id="myTypingText">
-          <div id="newTime"></div>[<span class="name">nyara</span><span class="atName">@http://nyaratakumi.github.io</span>]<span class="atildi"> ~</span>
-          <br> <span class="atildi">$</span>
-        </div>
+    <div class="intro">
+      <div class="center">
+        <h1>Self Introduction</h1>
+        <img src="images/me.jpg" />
       </div>
-    </div>
-
-    <div class="message">
-      <p>Be a creative.</p>
-    </div>
-
-    <div class="about">
-      <h1>About me!</h1>
-      <div class="title-line"></div>
-      <div class="me-img">
-        <img class="me" src="img/me.jpg">
+      <div class="status">
+        <p id="name"> </p>
+        <p id="birthday"> </p>
+        <p id="school"> </p>
+        <p id="tl"> </p>
+        <p id="hobby"> </p>
       </div>
-      <div class="intro">
-        <p>Takumi Nara</p>
-        <p>17 years old</p>
-        <p>Utsunomiya Technical Highschool</p>
-        <p>Member of <a class="logics" href="http://techlogics.link">Tech Logics</a></p>
-        <p># Love</p>
-        <ul class="list-contents">
-          <li>Programming</li>
-          <li>Soccer</li>
-        </ul>
-        <p># Skill</p>
-        <ul class="list-contents">
-          <li>HTML/CSS</li>
-          <li>Rails(Ruby)</li>
-          <li>JavaScript</li>
-          <li>Java</li>
-          <li>C</li>
-          <li>Japanese</li>
-        </ul>
-        <p># Respect</p>
-        <ul class="list-contents">
-          <li>Mark Zuckerberg</li>
-          <li>Google</li>
-          <li>people who follow on Twitter</li>
-          <li>and You!!!!!!!</li>
+      <div class="center">
+        <h1>Skill</h1>
+      </div>
+      <div class="status">
+        <ul>
         </ul>
       </div>
-      <div class="message">
-        <p>The riskest is thing to take no risks.</p>
-      </div>
     </div>
 
-    <div class="think">
-      <h1>I'm thinking now...</h1>
-      <div class="title-line"></div>
-      <div id="one" class="set" data-percent="85">Rails: 85%</div>
-      <div id="two" class="set" data-percent="50">Design: 50%</div>
-      <div id="three" class="set" data-percent="10">Study: 10%</div>
-      <div id="four" class="set" data-percent="90">Future: 90%</div>
-      <div id="five" class="set" data-percent="30">Soccer: 30%</div>
-      <p class="and-more">and more...</p>
-      <div class="message">
-        <p>I can do anything!!!</p>
-      </div>
-    </div>
-
-    <div class="portfolio">
-      <h1>Portfolio</h1>
-      <div class="title-line"></div>
-      <div class="bbs-app">
-        <div class="me-img">
-
-        </div>
-        <div class="sentence">
-        
-        </div>
-      </div>
-      <div class="message">
-        <p>Coming soon!</p>
-      </div>
-    </div>
-
-    <div class="next">
-      <h1>Next Challenge</h1>
-      <div class="title-line"></div>
-      <div class="pc-icon">
-        <i class="fa fa-laptop"></i>
-      </div>
-      <div class="challenge">
-        <p># Development of Web app</p>
-        <ul class="list-contents">
-          <li>Ruby on Rails</li>
-          <li>Node.js(Express, Meteor)</li>
-        </ul>
-        <p># Development of Mobile app</p>
-        <ul class="list-contents">
-          <li>Swift(iOS)</li>
-          <li>Java(Android)</li>
-          <li>HTML/CSS/JavaScript</li>
-        </ul>
-        <p># Development of AI</p>
-        <p># Become famous</p>
-        <p># Make a girlfriend!!!</p>
-      </div>
-      <div class="message">
-        <p>What do you want to do?</p>
-      </div>
-    </div>
-
-    <div class="contact">
-      <h1>Contact</h1>
-      <div class="title-line"></div>
-      <div class="sns">
-        <a class="fa fa-twitter" href="https://twitter.com/nyaratakumi"></a>
-        <a class="fa fa-facebook-official" href="https://www.facebook.com/profile.php?id=100009876944042"></a>
-        <a class="fa fa-github" href="https://github.com/nyaratakumi"></a>
-      </div>
-      <div class="message">
-        <p>Talking with me!!</p>
-      </div>
-    </div>
-    <div class="footer">
-      <a href="https://twitter.com/share" class="twitter-share-button"{count} data-url="http://nyaratakumi.github.io" data-text="あの高校生プログラマ奈良拓海のHP" data-via="nyaratakumi" data-size="large" data-hashtags="NyaraTerminal">Tweet</a>
-      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-      <p class="copyright">Copyright 2015 Takumi Nara</p>
-    </div>
-  </div>
-
-  <script src="js/index.js"></script>
-  <script src="js/jquery.inview.min.js"></script>
-  <script src='http://rendro.github.io/easy-pie-chart/javascripts/jquery.easy-pie-chart.js'></script>
-</body>
+    <script type="text/javascript" src="js/jquery-3.0.0.min.js"></script>
+    <script type="text/javascript" src="js/t.js"></script>
+    <script type="text/javascript" src="js/jquery.inview.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
 </html>

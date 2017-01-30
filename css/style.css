@@ -1,58 +1,64 @@
-@import url(https://fonts.googleapis.com/css?family=Coming+Soon);
-
-html {
-  height: 100%;
-}
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
 
 body {
   margin: 0;
-  height: 100%;
-  font-family: 'Coming Soon', cursive;
+  font-family: 'Pacifico', cursive;
 }
 
-header {
-  height: 100%;
+.sns {
+  display: flex;
+  flex-direction: row;
 }
 
-header h1 {
-  margin-top: 0;
-  padding-top: 250px;
-  padding-left: 20%;
-  font-size: 5em;
-}
-
-del {
-  text-decoration: none;
-}
-
-.intro {
-  margin: 0 auto;
-  width: 80%;
-}
-
-.intro h1 {
-  font-size: 3em;
-}
-
-.intro img {
-  padding: 0 auto;
-  width: 30%;
-  border-radius: 50%;
-}
-
-.center {
+.item {
+  color: white;
+  padding: 10px;
+  flex-grow: 1;
   text-align: center;
+  position: relative;
 }
 
-.status {
-  margin: 0 auto;
-  width: 50%;
-  height: 500px;
-  font-size: 2em;
-  margin-bottom: 100px;
+.tw {
+  background-color: #1da1f2;
 }
 
-li {
-  list-style: none;
-  margin-bottom: 10px;
+.fb {
+  background-color: #3b5998;
+}
+
+.gh {
+  background-color: #333;
+}
+
+.sp {
+  background-color: #2ebd59;
+}
+
+.top {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 10vw;
+  }
+}
+
+@media (min-width: 801px) {
+  h1 {
+    font-size: 5vw;
+  }
+}
+
+a {
+  display: inline-block;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }

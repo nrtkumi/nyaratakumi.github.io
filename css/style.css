@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
 body {
   margin: 0;
-  font-family: 'Pacifico', cursive;
 }
 
 .sns {
   display: flex;
   flex-direction: row;
+
+  width: 100vw;
+  position: fixed;
+  bottom: -54px;
+  left: 0;
+  transition: .3s;
 }
 
 .item {
@@ -34,22 +39,11 @@ body {
 }
 
 .top {
+  font-family: 'Pacifico', cursive;
   display: flex;
   height: 100vh;
   align-items: center;
   justify-content: center;
-}
-
-@media (max-width: 800px) {
-  h1 {
-    font-size: 10vw;
-  }
-}
-
-@media (min-width: 801px) {
-  h1 {
-    font-size: 5vw;
-  }
 }
 
 .item a {
@@ -60,4 +54,46 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.contents {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content {
+  background-color: #5cb855;
+  height: 50vw;
+  width: 50vw;
+  margin: 1%;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 10vw;
+  }
+
+  .content {
+    height: 48vw;
+    width: 48vw;
+  }
+}
+
+@media (min-width: 801px) {
+  h1 {
+    font-size: 5vw;
+  }
+
+  .content {
+    height: 31.33vw;
+    width: 31.33vw;
+  }
 }

@@ -12,3 +12,16 @@ $(window).scroll(function() {
   }
   startPos = currentPos;
 });
+
+
+$('.content').click(function() {
+  $('#modal-overlay').toggle();
+  $('.modal-content').css("display", "flex");
+  $('.here').append('<p>something</p>');
+});
+
+$('#modal-close').click(function() {
+  $('#modal-overlay').toggle();
+  $('.modal-content').css("display", "none");
+  $('.here').html('');
+});

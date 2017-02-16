@@ -114,6 +114,12 @@ body {
   transition: .3s;
 }
 
+#portfolio {
+  background-image: url(./../img/portfolio.jpg);
+  background-size: cover;
+  transition: .3s
+}
+
 .red {
   background-color: red;
 }

@@ -145,6 +145,11 @@ body {
   text-align: right;
 }
 
+.here {
+  font-family: "Sawarabi Mincho";
+  padding-left: 20px;
+}
+
 #modal-overlay{
   z-index:3;
   display:none;

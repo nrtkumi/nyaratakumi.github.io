@@ -105,5 +105,5 @@ canvas.addEventListener("touchend", function(e) {
   console.log((ans.length / (canvas.width * canvas.height)) * 100 + "%黒");
   ctx.clearRect(0, 0, canvas.width, canvas.height);
   alert((ans.length / (canvas.width * canvas.height)) * 100 + "%黒");
-  location.href = '/';
+  location.href = '/blackout';
 })

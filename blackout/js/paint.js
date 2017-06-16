@@ -86,18 +86,6 @@ canvas.addEventListener("touchmove",function(e){
 
 canvas.addEventListener("touchend", function(e) {
   e.preventDefault();
-  //var imagedata = ctx.getImageData(1,1,1,1);
-  //console.log(Array.prototype.slice.apply(imagedata.data));
-
-  /*var imagedata;
-  for (var i = 1; i <= canvas.width; i++) {
-    for (var j = 1; j <= canvas.height; j++) {
-      imagedata = ctx.getImageData(i,j,1,1);
-      console.log(Array.prototype.slice.apply(imagedata.data));
-      console.log(i + ", " + j);
-    }
-  }*/
-  //console.log(canvas.width + ", " + canvas.height);
   var imagedata = ctx.getImageData(0,0,canvas.width,canvas.height);
   console.log(imagedata);
   console.log(canvas.width * canvas.height);
@@ -117,4 +105,5 @@ canvas.addEventListener("touchend", function(e) {
   console.log((ans.length / (canvas.width * canvas.height)) * 100 + "%黒");
   ctx.clearRect(0, 0, canvas.width, canvas.height);
   alert((ans.length / (canvas.width * canvas.height)) * 100 + "%黒");
+  location.href = 'nyaratakumi.com/blackout';
 })

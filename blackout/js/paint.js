@@ -55,7 +55,7 @@ canvas.addEventListener("touchstart",function(e){
   e.preventDefault();
   var rect = e.target.getBoundingClientRect();
   //ctx.lineWidth = document.getElementById("lineWidth").value;
-  ctx.lineWidth = 10;
+  ctx.lineWidth = 50;
   //ctx.globalAlpha = document.getElementById("alpha").value/100;
   ctx.globalAlpha = 100
   undoImage = ctx.getImageData(0, 0,canvas.width,canvas.height);

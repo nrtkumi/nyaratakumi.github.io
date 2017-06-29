@@ -1,0 +1,91 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mdl-layout__header-row[data-v-438f9a70] {
+  padding: 0 16px;
+}
+i[data-v-438f9a70] {
+  padding-right: 16px;
+}
+
+main {
+  background-color: #f6f6f6;
+  width: 100%;
+  margin: 0 auto;
+}
+.page-content {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+
+
+.mdl-textfield {
+  padding: 0;
+  background-color: #f6f6f6;
+  margin: 150px auto;
+  width: 60%;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 60px;
+}
+
+.gif {
+  margin: 0 auto;
+  width: 60%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack:justify;
+      justify-content:space-between;
+  margin-bottom: 60px;
+}
+.gif.mdl-card {
+  width: 256px;
+  height: 256px;
+}
+.gif> .mdl-card__actions {
+  height: 52px;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.2);
+}
+.filename {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+h1[data-v-0890d5e7], h2[data-v-0890d5e7] {
+  font-weight: normal;
+}
+ul[data-v-0890d5e7] {
+  list-style-type: none;
+  padding: 0;
+}
+li[data-v-0890d5e7] {
+  display: inline-block;
+  margin: 0 10px;
+}
+a[data-v-0890d5e7] {
+  color: #42b983;
+}
+
+/*# sourceMappingURL=app.5390b9e6857cbc6b77783d4d10328c70.css.map*/
